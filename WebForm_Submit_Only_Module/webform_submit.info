@@ -1,0 +1,13 @@
+name = Webform_Submit
+description = Submodule for Webform Module to add requested functionality
+core = 7.x
+package = Webform_Submit
+configure = admin/config/content/webform_submit
+php = 5.3
+dependencies[] = Webform
+
+; Information added by Drupal.org packaging script on 2019-03-01
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "webform_submit"
+datestamp = "1551458916"
