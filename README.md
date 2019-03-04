@@ -4,6 +4,7 @@ This is a submodule for Webform in Drupal 7. This module is meant to allow users
 ## Version 1.0
 Developed on Drupal Core 7.64 <br>
 Developed on Webform 4.19
+Using PHP 5.3
 
 ## Associated Issue(s)
 <a href = "https://ulstracker.atlassian.net/projects/SYSDEV/issues/SYSDEV-676"> SYSDEV-676 </a> - Created 2/28/19
