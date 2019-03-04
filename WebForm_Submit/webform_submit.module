@@ -1,10 +1,15 @@
 <?php
-
+/*
+ * Implements Hook_Form_Alter()
+ */
 function webform_submit_form_alter(&$form, &$form_state, $form_id){
 
     $form['#after_build'][] = 'webform_submit_after_build'; 
 
 }
+/*
+ * Injects Js/Jquery after page has already been built
+ */
 function webform_submit_after_build($form, &$form_state){
   $path = drupal_get_path('module', 'webform_submit');
   drupal_add_js ("$path/submit_js.js");
