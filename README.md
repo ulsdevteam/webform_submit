@@ -1,10 +1,9 @@
-# webform_submit
+# WebForm_Submit
 ## About
 This is a submodule for Webform. This module is meant to allow users when editing textfields they may press enter and then they will placed into the lower textfield, instead of submitting the page.
-## Version
+## Version 1.0
 Developed on Drupal Core 7.64 <br>
 Developed on Webform 4.19
-### Current WebForm_Version 1.0
 
 ## Associated Issue(s)
 <a href = "https://ulstracker.atlassian.net/projects/SYSDEV/issues/SYSDEV-676"> SYSDEV-676 </a> - Created 2/28/19
