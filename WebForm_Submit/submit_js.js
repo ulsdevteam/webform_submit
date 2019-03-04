@@ -2,7 +2,7 @@
 (function ($) {
     Drupal.behaviors.DisableInputEnter = {
         attach: function (context, settings) {
-            $('input', context).once('disable-input-enter', function () {
+            $('form.webform-client-form input', context).once('disable-input-enter', function () {
                 $(this).keypress(function (event) {
                     var x = 0;
                     var item = event.target.form;
